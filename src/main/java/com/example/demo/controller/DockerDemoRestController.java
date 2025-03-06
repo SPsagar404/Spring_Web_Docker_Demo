@@ -9,6 +9,7 @@ public class DockerDemoRestController {
 	
 	@GetMapping("/msg")
 	public String showMessage() {
+		System.out.println("Controller called");
 		return "<h1> Welcome to Spring Boot App running on docker container </h1> ";
 	}
 	
