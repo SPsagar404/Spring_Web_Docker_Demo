@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Spring_Web_Docker_Demo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
