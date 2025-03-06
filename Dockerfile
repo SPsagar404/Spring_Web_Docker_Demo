@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/Spring_Web_Docker_Demo.jar app.jar
 
 # Expose the application's port (default is 8080)
-EXPOSE 8080
+EXPOSE 8080:8080
 
 # Run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
